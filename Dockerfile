@@ -1,6 +1,6 @@
 ﻿FROM davexacom/ace11002mqc91soe:latest
 
-ENV BAR1=Microservice1.bar
+ENV BAR1=Microservice3.bar
 
 # Copy in the bar file to a temporary directory
 COPY --chown=aceuser ./acesoe/binary/$BAR1 /tmp
